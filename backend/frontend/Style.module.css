@@ -1,0 +1,207 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.cards{
+
+    width:24%;
+    float:left;
+    border:2px solid;
+    margin-left: 1%;
+    margin-top:10px;
+    padding:5px;
+}
+
+
+.cards1{
+
+    width:24%;
+    float:left;
+    border:2px solid;
+    margin-left: 1%;
+    margin-top:10px;
+    padding:5px;
+}
+
+
+.cards1:first-child{
+
+  display:none;
+}
+
+.image{
+
+    width:100%;
+    border:1px solid;
+}
+
+
+.send{
+
+    display:block;
+    clear:both;
+    
+  
+}
+
+.buttonsend{
+
+    background-color: orange;
+    border:0;
+    font-size: 24px;
+    padding:10px;
+    margin-left:10px;
+    margin-top:10px;
+}
+
+.buttonsend:hover{
+
+    background-color: green;
+    color:white;
+    
+}
+
+
+.buttonsend1{
+
+    background-color: orange;
+    border:0;
+    font-size: 24px;
+    padding:10px;
+    margin-left:10px;
+    margin-top:10px;
+}
+
+.buttonsend1:hover{
+
+    background-color: green;
+    color:white;
+    
+}
+
+
+.buttonchange{
+
+    background-color: blue;
+    border:0;
+    font-size: 24px;
+    padding:10px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+.buttonchange:hover{
+
+    background-color: red;
+    color:white;
+    
+}
+
+.total{
+
+    font-size: 30px;
+    margin-left:10px;
+    margin-top:10px;
+    
+}
+.smallscreentotal{
+
+    display:none;
+    
+}
+
+
+.link{
+    width:30%;
+    float:left;
+    background-color:skyblue;
+    height: 100vh;
+}
+.route{
+    width:70%;
+    float:right;
+    background-color:pink;
+    height: 100vh;
+}
+
+.link ul {
+    list-style-type: none;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    
+    
+  }
+
+  .example {
+    
+   padding:4%;
+    text-decoration: none;
+    background-color:black;
+    margin-top:3%;
+    color:white;
+  }
+
+
+  .add{
+      padding-left: 5%;
+  }
+  .input{
+    padding: 1%;
+    font-size:16px;
+    border:0;
+}
+
+.inputbutton{
+    padding: 1%;
+    font-size:16px;
+    border:0;
+    margin-top:1%
+}
+
+.example:hover {
+    background-color: orange;
+}
+
+
+
+@media screen and (max-width: 600px) {
+   
+.cards{
+
+    width:96%;
+    float:none;
+    margin-left: 2%;
+    margin-right: 2%;
+    overflow:hidden;
+   
+}
+
+
+.cards1{
+
+    width:96%;
+    float:none;
+    margin-left: 2%;
+    margin-right: 2%;
+    overflow:hidden;
+   
+}
+
+.total{
+
+   display:none;
+   
+}
+
+.smallscreentotal{
+    display:block;
+
+    font-size: 30px;
+    margin-left:10px;
+    margin-top:10px;
+}
+  }
+

@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.cards{
+
+    width:24%;
+    float:left;
+    border:2px solid;
+    margin-left: 1%;
+    margin-top:10px;
+    padding:5px;
+}
+
+
+.cards1{
+
+    width:24%;
+    float:left;
+    border:2px solid;
+    margin-left: 1%;
+    margin-top:10px;
+    padding:5px;
+}
+
+
+.cards1:first-child{
+
+  display:none;
+}
+
+.image{
+
+    width:100%;
+    border:1px solid;
+}
+
+
+.send{
+
+    display:block;
+    clear:both;
+    
+  
+}
+
+.buttonsend{
+
+    background-color: orange;
+    border:0;
+    font-size: 24px;
+    padding:10px;
+    margin-left:10px;
+    margin-top:10px;
+}
+
+.buttonsend:hover{
+
+    background-color: green;
+    color:white;
+    
+}
+
+
+.buttonsend1{
+
+    background-color: orange;
+    border:0;
+    font-size: 24px;
+    padding:10px;
+    margin-left:10px;
+    margin-top:10px;
+}
+
+.buttonsend1:hover{
+
+    background-color: green;
+    color:white;
+    
+}
+
+
+.buttonchange{
+
+    background-color: blue;
+    border:0;
+    font-size: 24px;
+    padding:10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.buttonchange:hover{
+
+    background-color: red;
+    color:white;
+    
+}
+
+.total{
+
+    font-size: 30px;
+    margin-left:10px;
+    margin-top:10px;
+    
+}
+.smallscreentotal{
+
+    display:none;
+    
+}
+
+
+@media screen and (max-width: 600px) {
+   
+.cards{
+
+    width:96%;
+    float:none;
+    margin-left: 2%;
+    margin-right: 2%;
+    overflow:hidden;
+   
+}
+
+
+.cards1{
+
+    width:96%;
+    float:none;
+    margin-left: 2%;
+    margin-right: 2%;
+    overflow:hidden;
+   
+}
+
+.total{
+
+   display:none;
+   
+}
+
+.smallscreentotal{
+    display:block;
+
+    font-size: 30px;
+    margin-left:10px;
+    margin-top:10px;
+}
+  }
+
